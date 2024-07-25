@@ -2,6 +2,8 @@
 
 Este é um projeto de uma aplicação web para busca de endereços por CEP, desenvolvido com React, Vite, Bootstrap e React-Bootstrap.
 
+💻 **Explore o Projeto:** [Buscador de Endereço](https://buscador-de-endereco-react.vercel.app/)
+
 ## Sumário
 
 - [Introdução](#introdução)
