@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 
+// Componente Footer para exibir o rodapé do aplicativo
 const Footer = () => {
     return (
         <footer className='bg-dark text-light py-4 mt-auto'>
@@ -14,4 +15,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer // Exporta o componente Footer como padrão
