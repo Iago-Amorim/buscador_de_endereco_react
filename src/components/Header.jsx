@@ -1,9 +1,17 @@
-import { Container } from "react-bootstrap"
+import { Navbar, Container } from "react-bootstrap"
+import { House } from "react-bootstrap-icons"
 
-export default function Header() {
+const Header = () => {
     return (
-        <Container fluid className='text-center pt-2 pb-1 bg-primary'>
-            <h1>Buscador de Endereço</h1>
-        </Container>
+        <Navbar bg='primary' variant='dark' expand='lg'>
+            <Container className='d-flex justify-content-center'>
+                <Navbar.Brand>
+                    <House className='me-2' />
+                    Buscador de Endereço
+                </Navbar.Brand>
+            </Container>
+        </Navbar>
     )
 }
+
+export default Header
